@@ -10,7 +10,7 @@ Welcome to the **Django API Lab** repository! This project demonstrates the impl
 2.  [Setup Instructions](https://github.com/Abdul-Ikram/Django-API-LAB.git#setup-instructions)
 3.  [Postman Collection](https://github.com/Abdul-Ikram/Django-API-LAB.git#postman-collection)
 4.  [Available APIs](https://github.com/Abdul-Ikram/Django-API-LAB.git#available-apis)
-5.  [Contributing](https://github.com/Abdul-Ikram/Django-API-LAB.git#contributing)
+5.  [Contributing](#contributing)
 
 ----------
 
@@ -77,7 +77,7 @@ python manage.py runserver
 To test the APIs, use the provided Postman collection.
 
 1.  **Download the Postman Collection:**  
-    The Postman collection file is located [here](https://github.com/Abdul-Ikram/Django-API-LAB/blob/main/Boilerplates.postman_collection.json).
+    The Postman collection file is located [here](https://github.com/Abdul-Ikram/Django-API-LAB/blob/main/PostDock/Boilerplates.postman_collection.json).
     
 2.  **Import the Collection:**
     
@@ -102,7 +102,7 @@ To test the APIs, use the provided Postman collection.
 
 Handles user registration, login, email verification, and password reset functionalities.
 
--   **Documentation**: [User Authentication README](https://github.com/Abdul-Ikram/Django-API-LAB/blob/main/userflow/README.md)
+-   **Documentation**: [User Authentication README](https://github.com/Abdul-Ikram/Django-API-LAB/blob/main/ReadMeNest/USER_AUTHENTICATION.md)
 -   **Postman Folder**: `userflow/authentication` and `userflow/forgot-password`
 
 ----------

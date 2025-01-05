@@ -6,10 +6,10 @@ Welcome to the **Django API Lab** repository! This project demonstrates the impl
 
 ## Table of Contents
 
-1.  [Project Overview](https://github.com/Abdul-Ikram/Django-API-LAB#project-overview)
-2.  [Setup Instructions](https://github.com/Abdul-Ikram/Django-API-LAB.git#setup-instructions)
-3.  [Postman Collection](https://github.com/Abdul-Ikram/Django-API-LAB.git#postman-collection)
-4.  [Available APIs](https://github.com/Abdul-Ikram/Django-API-LAB.git#available-apis)
+1.  [Project Overview](#project-overview)
+2.  [Setup Instructions](#setup-instructions)
+3.  [Postman Collection](#postman-collection)
+4.  [Available APIs](#available-apis)
 5.  [Contributing](#contributing)
 
 ----------

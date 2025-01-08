@@ -133,7 +133,7 @@ Authenticates a user and returns JWT tokens upon successful login.
       "username": "user",
       "email": "user@example.com",
       "is_verified": true,
-      ...
+      ....
     }
   }
 }

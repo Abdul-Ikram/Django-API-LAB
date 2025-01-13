@@ -124,7 +124,8 @@ class VerifyEmailView(APIView):
         if not email or not otp:
             return Response({
                 'status_code': 400,
-                'message': 'Both email and OTP are required to complete the verification process.'
+                # 'message': 'Both email and OTP are required to complete the verification process.'
+                'message': 'Both email and OTP are required to proceed with verification process.'
             }, status=status.HTTP_400_BAD_REQUEST)
 
         user = User.objects.filter(email__iexact=email).first()

@@ -6,26 +6,26 @@ from django.utils import timezone
 
 User = get_user_model()
 
-class RegisterSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True)
+# class RegisterSerializer(serializers.ModelSerializer):
+#     password = serializers.CharField(write_only=True)
 
-    class Meta:
-        model = User
-        fields = ['username', 'email', 'password']
+#     class Meta:
+#         model = User
+#         fields = ['username', 'email', 'password']
 
-    def validate_email(self, value):
-        if User.objects.filter(email=value).exists():
-            raise ValidationError("User with this Email already exists.")
-        return value
+#     def validate_email(self, value):
+#         if User.objects.filter(email=value).exists():
+#             raise ValidationError("User with this Email already exists.")
+#         return value
 
-    def create(self, validated_data):
-        user = User(
-            username=validated_data['username'],
-            email=validated_data['email']
-        )
-        user.set_password(validated_data['password'])
-        user.save()
-        return user
+#     def create(self, validated_data):
+#         user = User(
+#             username=validated_data['username'],
+#             email=validated_data['email']
+#         )
+#         user.set_password(validated_data['password'])
+#         user.save()
+#         return user
 
 class PasswordResetConfirmSerializer(serializers.ModelSerializer):
     email = serializers.EmailField()
